@@ -74,7 +74,7 @@ namespace MyCaves
                 //Devolverá o valor zero, o inicio
                 cantos_y = 0;
             }
-            return y;
+            return cantos_y;
         }
 
     }
