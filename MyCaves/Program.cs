@@ -7,9 +7,15 @@ namespace MyCaves
         static void Main(string[] args)
         {
             int n = args.Length;
-           if (n == 3)
+            int x = int.Parse(args[0]);
+            int y = int.Parse(args[1]);
+            int passos = int.Parse(args[2]);
+            if (n == 3)
             {
                 Console.WriteLine("Let's start");
+                Console.WriteLine(x);
+                Console.WriteLine(y);
+                Console.WriteLine(passos);
             }
             else
             {
