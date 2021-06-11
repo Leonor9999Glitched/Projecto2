@@ -18,6 +18,8 @@ namespace MyCaves
             {
                 Console.WriteLine("Let's start");
                 World bigWorld = new World(x, y);
+                NewWorld newWorld = new NewWorld(x, y);
+                AuxWorld auxWorld = new AuxWorld(x, y);
                 bigWorld.Show_World();
             }
             else

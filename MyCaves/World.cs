@@ -58,5 +58,24 @@ namespace MyCaves
             return cantos_x;
         }
 
+        public int Verificarcantos_y()
+        {
+            //Ver se o mundo não sai dos limites
+            //Se o x for inferior a zero
+            if(cantos_y < 0)
+            {
+                //Devolverá o valor do limite
+                cantos_y = this.y;
+            }
+
+            if(cantos_y > this.y)
+            {
+                //Se o valor for maior que o limite
+                //Devolverá o valor zero, o inicio
+                cantos_y = 0;
+            }
+            return y;
+        }
+
     }
 }
